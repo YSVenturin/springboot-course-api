@@ -1,0 +1,68 @@
+HELP.md
+
+### Maven ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Maven Wrapper ###
+# Se você usa Maven Wrapper do tipo "bin" e existe esse arquivo no projeto,
+# considere versionar o jar. Se usa o wrapper padrão atual, pode ignorar.
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
+logs/
+
+### Runtime / JVM ###
+hs_err_pid*
+replay_pid*
+
+### Environment / Secrets ###
+.env
+.env.*
+!.env.example
+
+# Arquivos locais com senha/configuração da sua máquina
+application-local.properties
+application-local.yml
+application-dev-local.properties
+application-dev-local.yml
+
+### H2 Database files ###
+*.mv.db
+*.trace.db
+*.lock.db
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
